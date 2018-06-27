@@ -1,24 +1,7 @@
-# README
+I'm using `github` as a sync & backup servicce
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# GraphQL
 
-Things you may want to cover:
+Learning about graphql with rails (and learning about rails at the same time). This repo is pretty much useless for people who aren't me.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If you *are* me, either...hello future me, hope you're well. You're cool! Or, you're a clone. At which point, are you from the future? Or is there a part of my life I don't know about yet? Either way, please get in touch because I'm inredibly curious.

@@ -6,6 +6,7 @@ AddMovieMutation = GraphQL::Relay::Mutation.define do
     input_field :title, !types.String
     input_field :summary, !types.String
     input_field :year, !types.Int
+    input_field :actorIds, types[types.Int]
 
     return_field :movie, MovieType
 
@@ -16,7 +17,11 @@ AddMovieMutation = GraphQL::Relay::Mutation.define do
             year: args.year
         )
 
-        movie.save!
-        { movie: movie }
+        # If saving was successful
+        movie.save {
+            { movie: movie }
+        } else {
+            { movie: nil }
+        }
     }
 end
